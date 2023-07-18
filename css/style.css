@@ -1,0 +1,45 @@
+body, ul, h1, h2, p, li {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+
+.container {
+  max-width: 940px;
+  margin: 0px auto;
+}
+
+img {
+  display: block;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 40px;
+  /* border: 1px solid red; */
+}
+
+.header img {
+  display: block;  
+  width: 150px;  
+}
+
+.menu {
+  display: flex;  
+}
+
+.menu li {
+  list-style: none;  
+  padding: 0px 10px;
+}
+
+.menu a {
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 20px 20px;  
+  color: #333;
+  font-weight: 700;  
+  /* border: 1px solid red; */
+}
