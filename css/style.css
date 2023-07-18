@@ -7,12 +7,15 @@ body, ul, h1, h2, p, li {
 .container {
   max-width: 940px;
   box-sizing: border-box;
-  margin: 0px auto;
-  border: 1px solid red;
+  margin: 0px auto;  
 }
 
 img {
   display: block;
+}
+
+li {
+  list-style: none;
 }
 
 .header {
@@ -31,8 +34,7 @@ img {
   display: flex;  
 }
 
-.menu li {
-  list-style: none;  
+.menu li {  
   padding: 0px 10px;
 }
 
@@ -41,15 +43,13 @@ img {
   text-transform: uppercase;
   padding: 20px 20px;  
   color: #333;
-  font-weight: 700;  
-  /* border: 1px solid red; */
+  font-weight: 700;    
 }
 
 .section-1 {
   background: url('../img/bg-header.svg') no-repeat;
   background-size: cover;
-  padding-top: 40px;
-  border: 1px solid red;
+  padding-top: 40px;  
 }
 
 .align-center {
@@ -59,8 +59,7 @@ img {
 .section-1 h2 {  
   font-size: 3.125rem;
   font-weight: 700;
-  margin-bottom: 20px;
-  border: 1px solid red;
+  margin-bottom: 20px;  
 }
 
 .section-1 p {
@@ -73,8 +72,7 @@ img {
   margin: 0 auto -150px auto;
 }
 
-.section-2 {
-  border: 1px solid red;
+.section-2 {  
   background-color: #0e0427;
   padding-top: 250px;
   padding-bottom: 150px;
@@ -84,6 +82,13 @@ img {
 .section-2 .container {
   display: flex;
   gap: 20px;
+}
+
+.section-2 h2 {
+  margin-top: 80px;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #fff;
 }
 
 .container-item {
@@ -104,4 +109,57 @@ img {
 
 .container-item p {
   color: #333;
+}
+
+.section-3 .container {
+  margin-top: -100px;
+}
+
+.section-3 .container ul {
+  display: grid;  
+  grid-template-columns: repeat(3, 1fr);  
+  gap: 16px;
+}
+
+.section-3 .container img {
+  display: block;
+  max-width: 100%;  
+}
+
+.section-4 {
+  background: url('../img/bg-header.svg') no-repeat;
+  background-size: cover;    
+}
+
+.section-4 footer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.section-4 footer p {
+  font-size: 1.25rem;
+  padding: 50px;
+}
+
+.icon-sociais {
+   display: flex;   
+   margin: 0 auto;     
+}
+
+.icon-sociais img {  
+  width: 18px;
+}
+
+.link-block {
+  width: 45px;
+  height: 45px;
+  color: #333;
+  background-color: #5524cf;
+  border-radius: 50px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  margin-left: 10px;
+  margin-right: 10px;
+  display: flex;
 }
