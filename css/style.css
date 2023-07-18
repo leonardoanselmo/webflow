@@ -17,8 +17,7 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 40px 40px;
-  /* border: 1px solid red; */
+  padding: 40px 40px;  
 }
 
 .header img {
